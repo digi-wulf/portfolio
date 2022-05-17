@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <title>Adreanna Martinez | About</title>
+</head>
+<body>
+    <nav class="navbar" id="nav-bar">
+        <span class="open-slide">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="5 5 14 14" width="50px" fill="#FFFFFF" onclick="openSlideMenu();">
+                    <path d="M0 0h24v24H0V0z" fill="none"/>
+                    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                </svg>
+            </a>
+        </span>
+
+        <ul class="navbar-nav">
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <div id="side-menu" class="side-nav" onclick="closeSideMenu()">
+        <a href="#" class="btn-close">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="about.html">About</a>
+    </div>
+    <div id="main">
+        <div class="container">
+            <!--  Top Section  -->
+            <div class="cover">
+                <img src="images/beast_logo.svg" alt="White logo icon" id="logo-white">
+                <div class="title">
+                    <h1>
+                        Designing and Developing the Web
+                    </h1>
+                    <h2>
+                        Making things more interesting one page at a time.
+                    </h2>
+                </div>
+            </div>
+            
+            <!--  Content Section  -->
+            <div class="content">
+                <div class="info">
+                    <h1>About</h1>
+                    <p>
+                        Hello, my name's Adreanna Martinez! I'm a graduate student looking to apply the skills and knowledge I have recently obtained into the field here in Texas.
+                    </p>
+                    <p>
+                        Before I got into programming, I really enjoyed designing and creating different drawings and concepts on my own. Although, I wasn't sure how to apply my creative skills, so I applied for a degree in Game Development and Simulation. However, when I had to take a few intro classes for Web-Development, I began to realize how much I enjoyed it, I quickly changed my major while still completing the certificate for Game Development and Simulation.
+                    </p>
+                        
+                    <p>
+                        During my college career, I was able to expand my knowledge and creative thinking in ways that I wouldn’t have been able to do on my own. I have also been given the chance to work alongside, lead teams, and build that courage and confidence that is essential when working on projects, but also clients. 
+                    </p>
+                    <p>
+                        Currently, I am helping run and maintain the site <a href="https://magnoliaparkdiadelosmuertos.com/" class="links">Magnolia Park Dia de los Muertos</a>, which is hosted on Squarespace. When I was asked to help with the site, I had no prior knowledge of how Squarespace worked quickly adapted once I read up on any information needed to make the necessary changes or to troubleshoot small issues that would occur.
+                    </p>
+                    
+                    <div class="button-select">
+                        <button class="page-button" onclick="window.open('Resume.pdf', '_blank')">Resume</button>
+                    </div>
+                </div>
+            </div>
+
+            <!--  Footer Section  -->
+            <div class="footer-content">
+                <footer>
+                    <a href="index.html">Home</a> | <a href="portfolio.html">Portfolio</a> | <a href="about.html">About</a>
+                    <br><br>
+                    <a href="index.html">
+                        <img src="images/beast_logo.svg" alt="White logo icon" id="icon-logo-white">
+                    </a>
+                    Adreanna Martinez &copy; 2021
+                    <br>
+                    All Rights Reserved
+                </footer>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
