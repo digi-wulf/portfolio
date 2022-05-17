@@ -1,0 +1,239 @@
+body{
+  padding: 0px;
+	margin: 0px;
+  background-color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+}
+#addressbar{
+  background-image: url("images/address-background.jpg");
+  background-size: contain;
+  background-color: #c80f0f;
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-top: 14px;
+  font-size: 18px;
+}
+nav{
+  font-family: 'Raleway', sans-serif;
+  padding-top: 26px;
+  padding-bottom: 21px;
+  font-weight: bold;
+  font-style: normal;
+	font-size: 24px;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+li{
+  display:inline-block;
+  text-align: center;
+}
+li a{
+  color: #ffffff;
+  float: left;
+  text-decoration: none;
+  padding-right: 64px;
+  padding-left: 64px;
+}
+a:hover{
+  text-decoration: underline;
+}
+#currentpg{
+  text-decoration: underline;
+}
+header{
+  background-image: url("images/coffee.jpg");
+  /* Set a specific height */
+  min-height: 356px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#logo{
+  width: 1094px;
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+img{
+  margin-left: 57px;
+  padding-top: 38px;
+}
+#container{
+  width: 1094px;
+  background-color: #fbba0a;
+  margin-left: auto;
+  margin-right: auto;
+}
+main{
+  width: 989px;
+  padding-left: 52px;
+  padding-right: 53px;
+  padding-top: 61px;
+  padding-bottom: 18px;
+  background-color: #ffffff;
+  font-size: 18px;
+}
+h3{
+  font-style: italic;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  font-size: 48px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #696971;
+}
+#welbar{
+  display: block;
+  margin-left: 0px;
+  margin-bottom: 41px;
+  width: 28%;
+  height: 4px;
+  border-width: 0px;
+  background-color: #696971;
+}
+#menubar{
+  display: block;
+  margin-left: 0px;
+  margin-bottom: 41px;
+  width: 14%;
+  height: 4px;
+  border-width: 0px;
+  background-color: #696971;
+}
+main>p{
+  font-family: 'Roboto', sans-serif;
+  color: #9999a7;
+  line-height: 25px;
+  margin-bottom: 31px;
+}
+#baristamain{
+  float: right;
+  padding-top: 0px;
+  padding: 6px;
+  display: inline-block;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #36373c;
+  border-radius: 5px;
+  margin-bottom: 34px;
+}
+h4{
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 28px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #696971;
+  padding-bottom: 8px;
+}
+#menus{
+  display: inline-block;
+  padding-bottom: 36px;
+}
+#hotdrinkmenu{
+  width: 474px;
+  padding-right: 20px;
+  float: left;
+}
+#colddrinkmenu{
+  width: 475px;
+	padding-left: 20px;
+  padding-bottom: 30px;
+  float: right;
+}
+#teadrinkmenu{
+  width: 474px;
+  padding-right: 20px;
+  float: left;
+}
+#foodmenu{
+  width: 475px;
+	padding-left: 20px;
+  float: right;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+tr{
+  font-family: 'Roboto', sans-serif;
+  color: #9999a7;
+  font-size: 14px
+}
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+strong{
+  font-size: 18px;
+	color:#c80f0f;
+}
+.price{
+  font-size: 18px;
+}
+#aboutbar{
+  display: block;
+  margin-left: 0px;
+  margin-bottom: 41px;
+  width: 24%;
+  height: 4px;
+  border-width: 0px;
+  background-color: #696971;
+}
+footer{
+  height: 186px;
+  margin: 0px;
+  padding: 0px;
+  background-image:  url('images/footer-background.jpg');
+  background-size: contain;
+  background-color: #60616a;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+  line-height: 30px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+#ftrcontainer{
+    height: 186px;
+    width: 1094px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#locatstyle{
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding-top: 21px;
+}
+#leftftr{
+  float: left;
+  display:inline-block;
+  margin-left: 53px;
+  vertical-align: middle;
+  padding-bottom: 20px;
+}
+#rightftr{
+  float: right;
+  display:inline-block;
+  margin-right: 54px;
+  padding-top: 41px;
+  padding-bottom: 40px;
+  vertical-align: middle;
+  letter-spacing: 1px;
+}
+#rightftr>a>img{
+  margin-left: 29px;
+}
