@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>News | Stripes Conservation</title>
+    <meta name="description" content="Sign up for weekly updates and info from our organization.">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="sidebar">
+      <nav>
+        <ul>
+          <a href="index.html"><img ID="logo" src="images/sclogo.png" alt="Stripes Conservation Logo"></a>
+          <li>
+            <a href="index.html">Our Mission</a>
+          </li>
+          <li>
+            <a href="about.html">About Tigers</a>
+          </li>
+          <li>
+            <a href="partners.html">Partners</a>
+          </li>
+          <li>
+            <a class="active" href="news.html">News</a>
+          </li>
+        </ul>
+    </div>
+
+    <div ID="container">
+      <header>
+        <div class="content">
+          <div ID="logo">
+            <h1 ID="headercont">News</h1>
+            <h2 ID="headersub">Keep up to date on our journey!</h2>
+          </div>
+        </div>
+      </header>
+
+      <div class="content">
+        <main class="info">
+          <p>Fill out the form below if you want the latest news and information on our work
+          to protecting these tigers!</p>
+          <hr ID="row">
+
+          <form enctype="text/plain" action="mailto:martinez.a927178@stu.sanjac.edu" method="post">
+            <div ID="formstyle">
+              <div>
+                <label for="fname">First Name:</label>
+                  <input type="text" id="fname" name="fname" size="48" maxlength="60" autocomplete="on" autofocus required/>
+                <label for="lname">Last Name:</label>
+                  <input type="text" id="lname" name="lname" size="48" maxlength="60" autocomplete="on" required/>
+                <label for="email">E-mail:</label>
+                  <input type="email" id="email" name="email" size="48" autocomplete="on" required/>
+
+                <div ID="bttns">
+                  <p><input type="reset" value="Reset"/></p>
+                  <p><input type="submit" value="Submit"/></p>
+                </div>
+
+              </div>
+            </div>
+          </form>
+
+        </main>
+      </div>
+
+      <footer>
+        <div class="content">
+          <div ID="ftrcontainer">
+            <div ID="centerftr">
+              <a href="index.html">Our Mission</a> |
+              <a href="about.html">About Tigers</a> |
+              <a href="partners.html">Partners</a> |
+              <a href="news.html">News</a><br/>
+
+              <a href="https://www.instagram.com/"><img ID="instaicon" src="images/icon-instagram.png" alt="insta-logo"/></a>
+              <a href="https://www.facebook.com/"><img ID="fbicons" src="images/icon-facebook.png" alt="fb-logo"/></a><br/>
+              Stripes Conservation | Est. 2021
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
