@@ -245,7 +245,8 @@ button:hover{
     transition: 0.3s;
 }
 .links:hover{
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
     color: rgb(231, 23, 23);
 }
 .portfolio-sites{
