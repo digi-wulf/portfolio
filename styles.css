@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #000000;
     padding: 0px;
     margin: 0px;
@@ -6,12 +6,13 @@ body{
 }
 
 /*  Top Navigation  */
-.navbar{
+.navbar {
     background-color: #262626;
     overflow: hidden;
     height: 63px;
 }
-.navbar a{
+
+.navbar a {
     float: right;
     display: block;
     color: #ffffff;
@@ -21,7 +22,8 @@ body{
     font-size: 20px;
     transition: 0.3s;
 }
-.navbar ul{
+
+.navbar ul {
     margin: 0;
     list-style: none;
     font-family: 'Oswald', sans-serif;
@@ -30,10 +32,12 @@ body{
     text-transform: uppercase;
     font-weight: 500;
 }
-.navbar a:hover{
+
+.navbar a:hover {
     color: rgb(231, 23, 23);
 }
-#nav-bar{
+
+#nav-bar {
     position: fixed;
     top: -63px;
     width: 100%;
@@ -41,22 +45,26 @@ body{
     transition: top 0.5s;
     z-index: 1;
 }
-.navbar-nav{
+
+.navbar-nav {
     display: block;
 }
-svg{
+
+svg {
     transition: 0.3s;
 }
-svg:hover{
+
+svg:hover {
     fill: rgb(231, 23, 23);
 }
 
 
 /*  Side Navigation  */
-.open-slide{
+.open-slide {
     display: none;
 }
-.side-nav{
+
+.side-nav {
     display: none;
     height: 100%;
     width: 0px;
@@ -75,7 +83,8 @@ svg:hover{
     text-transform: uppercase;
     font-weight: 500;
 }
-.side-nav a{
+
+.side-nav a {
     padding: 10px 30px;
     text-decoration: none;
     font-size: 22px;
@@ -83,54 +92,64 @@ svg:hover{
     display: block;
     transition: 0.3s;
 }
-.side-nav a:hover{
+
+.side-nav a:hover {
     color: #ffffff;
 }
-.side-nav .btn-close{
+
+.side-nav .btn-close {
     position: absolute;
     top: 0;
     margin-right: 50px;
     font-size: 36px;
 }
-.side-nav-overlay:hover{
+
+.side-nav-overlay:hover {
     background-color: rgb(231, 23, 23);
     border-left: 8px solid #ffffff;
 }
 
-#main{
+#main {
     transition: margin-right 0.5s;
     overflow: hidden;
     width: 100%;
 }
-.container{
+
+.container {
     display: flex;
     flex-wrap: wrap;
     transition: 0.5s;
 }
-.container div{
+
+.container div {
     flex: 100%;
 }
-.cover, .footer-content{
+
+.cover,
+.footer-content {
     background-color: #000000;
 }
 
 
 /*  Top Section  */
-.container .cover{
+.container .cover {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     padding: 5% 0% 10% 0%;
 }
-.cover{
+
+.cover {
     padding: 0px 20px;
 }
-.title{
+
+.title {
     animation-name: cover-logo-animation;
     animation-duration: 1.5s;
     animation-timing-function: ease;
 }
-#logo-white{
+
+#logo-white {
     width: 30%;
     height: auto;
     margin: 50px 0px 30px 0px;
@@ -141,43 +160,85 @@ svg:hover{
     fill: #ffffff;
 }
 @keyframes cover-logo-animation {
-    0%  {
+    0% {
         opacity: 0;
-        left:0px;
-        top:200px;
+        left: 0px;
+        top: 200px;
     }
-    100%  {
+
+    100% {
         opacity: 100%;
-        left:0px;
-        top:0px;
+        left: 0px;
+        top: 0px;
     }
 }
 
 
 /*  Content Section  */
-.content{
+.content {
     margin: 20px 0px;
 }
-.info{
+
+.info {
     border-top: 1px #ffffff solid;
     border-bottom: 1px #ffffff solid;
     margin: 0% 10% 0% 10%;
     padding: 0% 5%;
 }
-.content h1{
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+#about_img {
+    width: 100%;
+    max-width: 300px;
+    min-width: 200px;
+    height: auto;
+    margin: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+    box-shadow: 0px 0px 50px rgb(148, 81, 37);
+}
+    /* position: relative;
+    animation-name: about-animation;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+}
+@keyframes about-animation {
+    0% {
+        opacity: 0;
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        opacity: 100%;
+        left: 0px;
+        top: 0px;
+    }
+} */
+
+.content h1 {
     margin: 0px;
     padding: 30px 0px 20px 0px;
 }
-.content p{
+
+.content p {
     margin: 0px;
     padding: 10px 0px;
 }
-.content .page-button{
+
+.content .page-button {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
-button{
+
+button {
     margin: 10px 0px;
     padding: 15px 50px 10px 50px;
     background-color: rgb(231, 23, 23);
@@ -194,12 +255,14 @@ button{
     border-bottom-width: 5px;
     border-color: rgb(231, 23, 23);
 }
-button:hover{
+
+button:hover {
     border-style: none none solid none;
     border-bottom-width: 5px;
     border-color: #ffffff;
 }
-.button-select{
+
+.button-select {
     display: flex;
     flex-wrap: wrap;
     margin: 20px 0px 50px 0px;
@@ -209,53 +272,64 @@ button:hover{
 
 /*  Portfolio Setup  */
 
-.site-cover{
+.site-cover {
     padding: 20px 0px 20px 20px;
     align-self: center;
 }
-.site-cover-reverse{
+
+.site-cover-reverse {
     padding: 20px 20px 20px 0px;
     align-self: center;
 }
-.sites:hover, .sites-reverse:hover{
+
+.sites:hover,
+.sites-reverse:hover {
     background-color: #1a1a1a;
 }
-.sites, .sites-reverse{
+
+.sites,
+.sites-reverse {
     padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     transition: 0.5s;
 }
-.sites .site-cover, .sites-reverse .site-cover-reverse{
-    flex-grow:0;
-    flex-shrink:0;
+
+.sites .site-cover,
+.sites-reverse .site-cover-reverse {
+    flex-grow: 0;
+    flex-shrink: 0;
 }
-.portfolio-button{
+
+.portfolio-button {
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
     margin-bottom: 25px;
     width: 100%;
 }
-.links{
+
+.links {
     text-decoration: none;
     color: #ffffff;
     font-weight: 900;
     transition: 0.3s;
 }
-.links:hover{
+
+.links:hover {
     text-decoration: underline;
     text-decoration-thickness: 2px;
     color: rgb(231, 23, 23);
 }
-.portfolio-sites{
+
+.portfolio-sites {
     margin: 30px 0px 50px 0px;
 }
 
 
 /*  Footer Section  */
-footer{
+footer {
     color: #ffffff;
     text-align: center;
     vertical-align: middle;
@@ -263,15 +337,18 @@ footer{
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
 }
-footer a{
+
+footer a {
     text-decoration: none;
     color: #ffffff;
     transition: 0.3s;
 }
-footer a:hover{
+
+footer a:hover {
     color: rgb(231, 23, 23);
 }
-#icon-logo-white{
+
+#icon-logo-white {
     width: 100px;
     height: auto;
     display: block;
@@ -282,7 +359,7 @@ footer a:hover{
 
 
 /*  Text Elements  */
-h1{
+h1 {
     color: rgb(231, 23, 23);
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
@@ -293,7 +370,11 @@ h1{
     padding: 20px;
     margin: 0;
 }
-h2{
+.about_header {
+    text-align: center;
+}
+
+h2 {
     color: #ffffff;
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
@@ -303,7 +384,8 @@ h2{
     padding: 0px 20px 0px 20px;
     margin: 0;
 }
-p{
+
+p {
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -316,70 +398,100 @@ p{
 
 
 /*  Media Queries  */
-@media(max-width:1024px){
-    .sites{
+@media(max-width:1440px){
+    .flexbox {
+        flex-direction: column;
+    }
+    #about_img {
+        width: 60%;
+        align-self: center;
+        margin: 30px;
+    }
+}
+@media(max-width:1024px) {
+    .sites {
         flex-direction: column-reverse;
         justify-content: center;
     }
-    .sites-reverse{
+
+    .sites-reverse {
         flex-direction: column;
         justify-content: center;
     }
-    .site-container{
+
+    .site-container {
         width: 100%;
     }
-    .site-cover, .site-cover-reverse{
+
+    .site-cover,
+    .site-cover-reverse {
         width: 100%;
         margin: auto;
         padding: 0px;
     }
-    .site-cover img , .site-cover-reverse img{
+
+    .site-cover img,
+    .site-cover-reverse img {
         display: block;
         width: 100%;
-        max-width: 342px; /*actual image width*/
-        height: auto; /* maintain aspect ratio*/
-        margin: auto; /*optional centering of image*/
-     }
-    button{
+        max-width: 342px;
+        /*actual image width*/
+        height: auto;
+        /* maintain aspect ratio*/
+        margin: auto;
+        /*optional centering of image*/
+    }
+
+    button {
         flex: 100%;
         background-color: rgb(231, 23, 23);
         color: #ffffff;
         border-color: rgb(231, 23, 23);
     }
-    button:hover{
+
+    button:hover {
         background-color: #ffffff;
         color: rgb(231, 23, 23);
         border-color: #ffffff;
     }
-    .portfolio-button{
+
+    .portfolio-button {
         width: 100%;
     }
-    .navbar-nav{
+
+    .navbar-nav {
         display: none;
     }
-    .open-slide{
+
+    .open-slide {
         display: block;
     }
-    .side-nav{
+
+    .side-nav {
         display: block;
     }
 }
-@media(max-width:768px){
-    h1{
+
+@media(max-width:768px) {
+    h1 {
         text-align: center;
     }
-    #main{
+
+    #main {
         text-align: center;
     }
-    #logo-white{
+
+    #logo-white {
         width: 50%;
     }
 }
-@media(max-width:425px){
-    .info{
+
+@media(max-width:425px) {
+    .info {
         margin: 0% 10%;
     }
-    #main{
+
+    #main {
         text-align: justify;
     }
 }
