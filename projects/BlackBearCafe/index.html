@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
     <title>Black Bear Cafe</title>
 
-    <meta name="description" content="Your early morning deep dark. Explore our menu and see what drinks will satisfy you thirst.">
+    <meta name="description"
+        content="Your early morning deep dark. Explore our menu and see what drinks will satisfy you thirst.">
 
     <link href="styles.css" rel="stylesheet" type="text/css" />
     <link rel="shortcut icon" type="image/png" href="images/android-icon-192x192.png">
-    <link rel="apple-touch-icon" type="image/png" sizes="180x180"  href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="images/apple-touch-icon.png">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 
@@ -36,23 +37,25 @@
         <nav class="navigation" id="section1">
             <a href="index.html"><img class="logo-sml" src="images/BBC.svg" alt="Black Bear Cafe nav logo"></a>
 
-            <div class="navbar" id="nav-bar">
-                <span class="open-slide">
-                    <a href="#section1">
+            <a href="#section1">
+                <div class="navbar" id="nav-bar">
+                    <span class="open-slide">
+
                         <svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="5 5 14 14" width="50px"
                             fill="#2e2722" onclick="openSlideMenu();">
                             <path d="M0 0h24v24H0V0z" fill="none" />
                             <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
                         </svg>
-                    </a>
-                </span>
 
-                <ul class="navbar-nav">
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="index.html">Home</a></li>
-                </ul>
-            </div>
+                    </span>
+
+                    <ul class="navbar-nav">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                </div>
+            </a>
         </nav>
         <div id="side-menu" class="side-nav" onclick="closeSideMenu()">
             <a href="#section1" class="btn-close">&times;</a>
@@ -101,8 +104,10 @@
                 </p>
             </div>
             <div class="socials">
-                <a href="https://www.instagram.com/"><img class="ig-logo" src="images/ig_logo.png" alt="Instagram logo"></a>
-                <a href="https://www.facebook.com/"><img class="fb-logo" src="images/fb_logo.png" alt="Facebook logo"></a>
+                <a href="https://www.instagram.com/"><img class="ig-logo" src="images/ig_logo.png"
+                        alt="Instagram logo"></a>
+                <a href="https://www.facebook.com/"><img class="fb-logo" src="images/fb_logo.png"
+                        alt="Facebook logo"></a>
             </div>
         </div>
     </footer>
