@@ -110,6 +110,7 @@ svg:hover {
 }
 
 #main {
+    text-align: justify;
     transition: margin-right 0.5s;
     overflow: hidden;
     width: 100%;
@@ -132,15 +133,14 @@ svg:hover {
 
 
 /*  Top Section  */
-.container .cover {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding: 5% 0% 10% 0%;
-}
-
 .cover {
-    padding: 0px 20px;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .title {
@@ -150,15 +150,17 @@ svg:hover {
 }
 
 #logo-white {
-    width: 30%;
+    max-width: 570px;
+    width: 100%;
     height: auto;
-    margin: 50px 0px 30px 0px;
+    margin: 0px 0px 50px 0px;
     position: relative;
     animation-name: cover-logo-animation;
     animation-duration: 1.5s;
     animation-timing-function: ease;
     fill: #ffffff;
 }
+
 @keyframes cover-logo-animation {
     0% {
         opacity: 0;
@@ -193,17 +195,20 @@ svg:hover {
     align-items: center;
     padding: 20px 0px;
 }
+
 #about_img {
     width: 100%;
     max-width: 300px;
     min-width: 200px;
     height: auto;
     margin: 50px;
+    align-self: flex-start;
     border-radius: 50%;
     vertical-align: middle;
     box-shadow: 0px 0px 50px rgb(148, 81, 37);
 }
-    /* position: relative;
+
+/* position: relative;
     animation-name: about-animation;
     animation-duration: 1.5s;
     animation-timing-function: ease;
@@ -370,6 +375,7 @@ h1 {
     padding: 20px;
     margin: 0;
 }
+
 .about_header {
     text-align: center;
 }
@@ -398,16 +404,18 @@ p {
 
 
 /*  Media Queries  */
-@media(max-width:1440px){
+@media(max-width:1440px) {
     .flexbox {
         flex-direction: column;
     }
+
     #about_img {
         width: 60%;
         align-self: center;
         margin: 30px;
     }
 }
+
 @media(max-width:1024px) {
     .sites {
         flex-direction: column-reverse;
@@ -477,12 +485,12 @@ p {
         text-align: center;
     }
 
-    #main {
-        text-align: center;
+    p {
+        letter-spacing: -1px;
     }
 
     #logo-white {
-        width: 50%;
+        width: 80%;
     }
 }
 

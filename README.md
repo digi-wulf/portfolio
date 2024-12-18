@@ -1,1 +1,2 @@
-###### digi-wulf.github.io
+# Portfolio
+The projects within the Portfolio were class projects from 2021-2022. Many of these Projects were not designed with mobile access in mind. Experiance on mobile will not be as pleasant as a computer or larger screen. Updates and changes will be made to correct the issues but are currently at an undetermined time.
