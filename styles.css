@@ -301,36 +301,6 @@ button:hover {
     vertical-align: middle;
 }
 
-.site-cover {
-    padding: 20px 0px 20px 20px;
-    align-self: center;
-}
-
-.site-cover-reverse {
-    padding: 20px 20px 20px 0px;
-    align-self: center;
-}
-
-.sites:hover,
-.sites-reverse:hover {
-    background-color: #1a1a1a;
-}
-
-.sites,
-.sites-reverse {
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    transition: 0.5s;
-}
-
-.sites .site-cover,
-.sites-reverse .site-cover-reverse {
-    flex-grow: 0;
-    flex-shrink: 0;
-}
-
 .portfolio-button {
     margin-left: auto;
     margin-right: auto;
@@ -449,37 +419,18 @@ p {
 }
 
 @media(max-width:1024px) {
-    .sites {
+    .class-proj{
+        padding: 20px;
         flex-direction: column-reverse;
-        justify-content: center;
     }
-
-    .sites-reverse {
-        flex-direction: column;
-        justify-content: center;
+    .site-desc{
+        vertical-align: middle;
     }
-
-    .site-container {
+    .site-prev{
+        margin-left: 0px;
+        margin-bottom: 20px;
+        vertical-align: middle;
         width: 100%;
-    }
-
-    .site-cover,
-    .site-cover-reverse {
-        width: 100%;
-        margin: auto;
-        padding: 0px;
-    }
-
-    .site-cover img,
-    .site-cover-reverse img {
-        display: block;
-        width: 100%;
-        max-width: 342px;
-        /*actual image width*/
-        height: auto;
-        /* maintain aspect ratio*/
-        margin: auto;
-        /*optional centering of image*/
     }
 
     button {
@@ -497,6 +448,7 @@ p {
 
     .portfolio-button {
         width: 100%;
+        margin-bottom: 0px;
     }
 
     .navbar-nav {
