@@ -315,19 +315,6 @@ button:hover {
     width: 100%;
 }
 
-.links {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: 900;
-    transition: 0.3s;
-}
-
-.links:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-    color: rgb(231, 23, 23);
-}
-
 .portfolio-sites {
     margin: 30px 0px 50px 0px;
 }
@@ -391,6 +378,17 @@ h2 {
     margin: 0;
 }
 
+.sub-head{
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-size: 30px;
+    padding: 15px 0px 0px 0px;
+    margin: 0;
+}
+
 p {
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
@@ -400,6 +398,16 @@ p {
     line-height: 30px;
     padding: 0px 20px 0px 20px;
     margin: 0px;
+}
+
+.text-link, .text-link:visited{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.text-link:hover, .text-link:active{
+    color: rgb(231, 23, 23);
 }
 
 
