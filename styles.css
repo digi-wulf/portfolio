@@ -277,6 +277,30 @@ button:hover {
 
 /*  Portfolio Setup  */
 
+.portfolio{
+    margin: 30px 0px;
+}
+.class-proj{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.class-proj:hover{
+    background-color: #1a1a1a;
+}
+.proj-contain{
+    vertical-align: middle;
+}
+.site-desc{
+    vertical-align: middle;
+}
+.site-prev{
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
 .site-cover {
     padding: 20px 0px 20px 20px;
     align-self: center;
