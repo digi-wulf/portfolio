@@ -1,72 +1,85 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Main Street Cafe</title>
-    <link href="styles.css" rel="stylesheet" type="text/css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,100;1,300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-  </head>
 
-  <body>
-    <div ID="addressbar">
-      555-123-4890 &emsp;&emsp; info@MainStreetcafe.com &emsp;&emsp; 123 Main Street, Houston, TX 77010
-      <nav>
-        <ul>
-          <li><a ID="currentpg" href="index.html">Home</a></li>
-					<li><a href="menu.html">Order</a></li>
-					<li><a href="aboutus.html">About</a></li>
-				</ul>
-      </nav>
+<head>
+  <meta charset="utf-8">
+  <title>Main Street Cafe</title>
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,100;1,300&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="adress-bar">
+    <div class="adress">
+      <p class="contact">555-123-4890</p>
+      <p class="contact">info@MainStreetcafe.com</p>
+      <p class="contact">123 Main Street, Houston, TX 77010</p>
     </div>
+    <nav class="nav-bar">
+      <a ID="currentpg" href="index.html">HOME</a>
+      <a href="menu.html">ORDER</a>
+      <a href="aboutus.html">ABOUT</a>
+    </nav>
+  </div>
 
-    <header>
-      <div ID="logo">
-        <img src="images/mainstreetcafe.png" alt="">
-      </div>
-    </header>
+  <header>
+    <div class="logo-container">
+      <img class="logo" src="images/mainstreetcafe.png" alt="">
+    </div>
+  </header>
 
-    <div ID="container">
-      <main>
+  <div ID="container">
+    <main>
+      <div class="title-txt">
         <h3>Welcome &emsp;&emsp;</h3>
         <hr ID="welbar">
-        <p> <img src="images/barista2.jpg" ID="baristamain" alt="Barista"> Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Mauris gravida diam bibendum nulla feugiat ullamcorper. Nulla
-          facilisi. Maecenas a arcu vel quam pretium malesuada. Nam vitae faucibus lacus. Class aptent
-          taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas feugiat,
-          sem eget consectetur lobortis, lacus tortor commodo leo, sit amet malesuada mauris massa vel velit.
-          Proin placerat mi id nisl elementum, sit amet interdum diam tincidunt.</p>
-        <p>Ut elementum sem et pretium condimentum. Vivamus ullamcorper justo tortor, efficitur placerat ex
-          aliquet et. Aenean fringilla elit ante. Sed at nisi neque. Aenean at nunc auctor, vehicula dui at,
-          molestie risus. Sed at rutrum erat, sed gravida nibh. Fusce fringilla libero sit amet finibus aliquet.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel mauris ac nibh dapibus rutrum. Cras
-          tristique sem sit amet nulla auctor viverra. Vivamus consectetur nulla sem, quis faucibus quam porta
-          quis.</p>
-        <p>Sed eleifend elit nec semper pulvinar. Donec tristique pulvinar nulla ut dapibus. Vestibulum tortor
-          dolor, ullamcorper id malesuada non, blandit ut ligula. Aenean sed nisi porta, auctor mauris non,
-          egestas ante. Mauris venenatis commodo sollicitudin. Sed ut eros nec purus consequat lobortis. Nulla
-          accumsan sem sit amet nisi maximus ultrices.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-          et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
-          lacus vel facilisis.</p>
-      </main>
-    </div>
-
-    <footer>
-      <div ID="ftrcontainer">
-        <div ID="leftftr">
-          <p ID="locatstyle">Location</p>
-          555-123-4890<br/>info@MainStreetcafe.com<br/>123 Main Street, Houston, TX 77010
-        </div>
-
-        <div ID="rightftr">
-          <a href="https://www.instagram.com/"><img ID="instaicon" src="images/icon-instagram.png" alt="insta-logo"/></a>
-          <a href="https://www.facebook.com/"><img ID="fbicons" src="images/icon-facebook.png" alt="fb-logo"/></a>
-        </div>
       </div>
-    </footer>
-  </body>
+      <p><img src="images/barista2.jpg" ID="baristamain" alt="Barista">
+        Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit. Mauris gravida diam bibendum nulla feugiat ullamcorper. Nulla facilisi. Maecenas a arcu vel
+        quam pretium malesuada. Nam vitae faucibus lacus. Class aptent taciti sociosqu ad litora torquent per conubia
+        nostra, per inceptos himenaeos. Maecenas feugiat, sem eget consectetur lobortis, lacus tortor commodo leo, sit
+        amet malesuada mauris massa vel velit. Proin placerat mi id nisl elementum, sit amet interdum diam tincidunt.
+      </p>
+      <p>
+        Ut elementum sem et pretium condimentum. Vivamus ullamcorper justo tortor, efficitur placerat ex aliquet et.
+        Aenean fringilla elit ante. Sed at nisi neque. Aenean at nunc auctor, vehicula dui at, molestie risus. Sed at
+        rutrum erat, sed gravida nibh. Fusce fringilla libero sit amet finibus aliquet. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit. Cras vel mauris ac nibh dapibus rutrum. Cras tristique sem sit amet nulla auctor
+        viverra. Vivamus consectetur nulla sem, quis faucibus quam porta quis.
+      </p>
+      <p>
+        Sed eleifend elit nec semper pulvinar. Donec tristique pulvinar nulla ut dapibus. Vestibulum tortor dolor,
+        ullamcorper id malesuada non, blandit ut ligula. Aenean sed nisi porta, auctor mauris non, egestas ante.
+        Mauris venenatis commodo sollicitudin. Sed ut eros nec purus consequat lobortis. Nulla accumsan sem sit amet
+        nisi maximus ultrices.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+        facilisis.
+      </p>
+    </main>
+  </div>
+
+  <footer>
+    <div ID="ftrcontainer">
+      <div ID="leftftr">
+        <p ID="locatstyle">Location</p>
+        555-123-4890<br />info@MainStreetcafe.com<br />123 Main Street, Houston, TX 77010
+      </div>
+
+      <div ID="rightftr">
+        <a href="https://www.instagram.com/"><img ID="instaicon" src="images/icon-instagram.png" alt="insta-logo" /></a>
+        <a href="https://www.facebook.com/"><img ID="fbicons" src="images/icon-facebook.png" alt="fb-logo" /></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>

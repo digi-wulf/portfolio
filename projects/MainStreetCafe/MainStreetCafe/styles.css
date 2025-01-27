@@ -1,80 +1,92 @@
-body{
+* {
   padding: 0px;
-	margin: 0px;
-  background-color: #ffffff;
+  margin: 0px;
   font-family: 'Raleway', sans-serif;
 }
-#addressbar{
+
+body {
+  background-color: #ffffff;
+}
+
+.adress-bar {
   background-image: url("images/address-background.jpg");
   background-size: contain;
   background-color: #c80f0f;
   color: #ffffff;
+  padding: 15px;
+}
+
+.adress {
   font-family: 'Quicksand', sans-serif;
   text-transform: uppercase;
-  line-height: 17px;
   text-align: center;
   letter-spacing: 1px;
-  padding-top: 14px;
   font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-nav{
+
+.contact {
+  line-height: 20px;
+  padding: 0 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.nav-bar {
   font-family: 'Raleway', sans-serif;
-  padding-top: 26px;
-  padding-bottom: 21px;
   font-weight: bold;
   font-style: normal;
-	font-size: 24px;
+  font-size: 24px;
+  padding-top: 20px;
+
+  display: flex;
+  justify-content: center;
 }
-ul{
-	margin: 0px;
-	padding: 0px;
-}
-li{
-  display:inline-block;
-  text-align: center;
-}
-li a{
+
+a {
+  text-transform: capitalize;
+  padding: 0 20px;
   color: #ffffff;
-  float: left;
   text-decoration: none;
-  padding-right: 64px;
-  padding-left: 64px;
 }
-a:hover{
+
+a:hover {
   text-decoration: underline;
 }
-#currentpg{
+
+#currentpg {
   text-decoration: underline;
 }
-header{
+
+
+header {
   background-image: url("images/coffee.jpg");
   /* Set a specific height */
-  min-height: 356px;
+  padding: 150px 0 150px 0;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+
+  display: flex;
+  justify-content: center;
 }
-#logo{
-  width: 1094px;
-  text-align: right;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
+.logo-container{
+  align-content: center;
+  margin: 0 5%;
 }
-img{
-  margin-left: 57px;
-  padding-top: 38px;
-}
-#container{
+
+
+#container {
   width: 1094px;
   background-color: #fbba0a;
   margin-left: auto;
   margin-right: auto;
 }
-main{
+
+main {
   width: 989px;
   padding-left: 52px;
   padding-right: 53px;
@@ -83,41 +95,8 @@ main{
   background-color: #ffffff;
   font-size: 18px;
 }
-h3{
-  font-style: italic;
-  text-transform: uppercase;
-  text-decoration: underline;
-  text-decoration-thickness: 4px;
-  font-size: 48px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  color: #696971;
-}
-#welbar{
-  display: block;
-  margin-left: 0px;
-  margin-bottom: 41px;
-  width: 28%;
-  height: 4px;
-  border-width: 0px;
-  background-color: #696971;
-}
-#menubar{
-  display: block;
-  margin-left: 0px;
-  margin-bottom: 41px;
-  width: 14%;
-  height: 4px;
-  border-width: 0px;
-  background-color: #696971;
-}
-main>p{
-  font-family: 'Roboto', sans-serif;
-  color: #9999a7;
-  line-height: 25px;
-  margin-bottom: 31px;
-}
-#baristamain{
+
+#baristamain {
   float: right;
   padding-top: 0px;
   padding: 6px;
@@ -128,7 +107,46 @@ main>p{
   border-radius: 5px;
   margin-bottom: 34px;
 }
-h4{
+
+h3 {
+  font-style: italic;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  font-size: 48px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #696971;
+}
+
+#welbar {
+  display: block;
+  margin-left: 0px;
+  margin-bottom: 41px;
+  width: 28%;
+  height: 4px;
+  border-width: 0px;
+  background-color: #696971;
+}
+
+#menubar {
+  display: block;
+  margin-left: 0px;
+  margin-bottom: 41px;
+  width: 14%;
+  height: 4px;
+  border-width: 0px;
+  background-color: #696971;
+}
+
+main>p {
+  font-family: 'Roboto', sans-serif;
+  color: #9999a7;
+  line-height: 25px;
+  margin-bottom: 31px;
+}
+
+h4 {
   font-style: italic;
   text-transform: uppercase;
   text-align: center;
@@ -138,53 +156,64 @@ h4{
   color: #696971;
   padding-bottom: 8px;
 }
-#menus{
+
+#menus {
   display: inline-block;
   padding-bottom: 36px;
 }
-#hotdrinkmenu{
+
+#hotdrinkmenu {
   width: 474px;
   padding-right: 20px;
   float: left;
 }
-#colddrinkmenu{
+
+#colddrinkmenu {
   width: 475px;
-	padding-left: 20px;
+  padding-left: 20px;
   padding-bottom: 30px;
   float: right;
 }
-#teadrinkmenu{
+
+#teadrinkmenu {
   width: 474px;
   padding-right: 20px;
   float: left;
 }
-#foodmenu{
+
+#foodmenu {
   width: 475px;
-	padding-left: 20px;
+  padding-left: 20px;
   float: right;
 }
+
 table {
   border-collapse: collapse;
   width: 100%;
 }
-tr{
+
+tr {
   font-family: 'Roboto', sans-serif;
   color: #9999a7;
   font-size: 14px
 }
+
 td {
   padding: 8px;
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
-strong{
+
+strong {
   font-size: 18px;
-	color:#c80f0f;
+  color: #c80f0f;
 }
-.price{
+
+.price {
   font-size: 18px;
 }
-#aboutbar{
+
+#aboutbar {
   display: block;
   margin-left: 0px;
   margin-bottom: 41px;
@@ -193,11 +222,12 @@ strong{
   border-width: 0px;
   background-color: #696971;
 }
-footer{
+
+footer {
   height: 186px;
   margin: 0px;
   padding: 0px;
-  background-image:  url('images/footer-background.jpg');
+  background-image: url('images/footer-background.jpg');
   background-size: contain;
   background-color: #60616a;
   font-family: 'Quicksand', sans-serif;
@@ -206,34 +236,60 @@ footer{
   letter-spacing: 2px;
   color: #ffffff;
 }
-#ftrcontainer{
-    height: 186px;
-    width: 1094px;
-    margin-left: auto;
-    margin-right: auto;
+
+#ftrcontainer {
+  height: 186px;
+  width: 1094px;
+  margin-left: auto;
+  margin-right: auto;
 }
-#locatstyle{
-    margin-bottom: 0px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    padding-top: 21px;
+
+#locatstyle {
+  margin-bottom: 0px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  padding-top: 21px;
 }
-#leftftr{
+
+#leftftr {
   float: left;
-  display:inline-block;
+  display: inline-block;
   margin-left: 53px;
   vertical-align: middle;
   padding-bottom: 20px;
 }
-#rightftr{
+
+#rightftr {
   float: right;
-  display:inline-block;
+  display: inline-block;
   margin-right: 54px;
   padding-top: 41px;
   padding-bottom: 40px;
   vertical-align: middle;
   letter-spacing: 1px;
 }
-#rightftr>a>img{
+
+#rightftr>a>img {
   margin-left: 29px;
+}
+
+/*  Media Queries  */
+@media(max-width:1440px) {}
+
+@media(max-width:1024px) {
+  header{
+    padding: 10%;
+  }
+  .logo-container{
+    margin: 0 5%;
+  }
+}
+
+@media(max-width:768px) {
+  .adress {
+    flex-direction: column;
+  }
+  .logo {
+    width: 100%;
+  }
 }
