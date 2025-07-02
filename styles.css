@@ -166,10 +166,10 @@ svg:hover {
 }
 
 #logo-white {
-    max-width: 570px;
+    max-width: 600px;
     width: 100%;
     height: auto;
-    margin: 0px 0px 50px 0px;
+    margin: 0px 0px 0px 0px;
     position: relative;
     animation-name: cover-logo-animation;
     animation-duration: 1.5s;
@@ -377,7 +377,19 @@ h1 {
     text-align: center;
 }
 
-h2 {
+h2{
+    color: rgb(231, 23, 23);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    margin: 0;
+}
+
+h3 {
     color: #ffffff;
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
